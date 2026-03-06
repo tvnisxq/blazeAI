@@ -1,0 +1,50 @@
+# ==========================================
+# Python / Backend
+# ==========================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+*.cover
+htmlcov/
+
+# Virtual environment
+blaze_venv/
+venv/
+.venv/
+
+# Environment secrets
+backend/.env
+
+# Alembic
+backend/alembic/versions/__pycache__/
+
+# ==========================================
+# Node / Frontend
+# ==========================================
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env*.local
+
+# ==========================================
+# IDE & OS
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================================
+# Docker
+# ==========================================
+*.log
+docker-compose.override.yml
